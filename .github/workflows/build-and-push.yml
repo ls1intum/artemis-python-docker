@@ -75,4 +75,3 @@ jobs:
             ls1tum/artemis-python-docker:${{ steps.compute-tag.outputs.result }}
             ghcr.io/ls1intum/artemis-python-docker:${{ steps.compute-tag.outputs.result }}
           platforms: linux/amd64,linux/arm64/v8
-          push: ${{ !startsWith(steps.compute-tag.outputs.result, 'pr-') }}
