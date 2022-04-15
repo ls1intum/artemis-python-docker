@@ -1,5 +1,4 @@
-# Base on Ubuntu 19.10
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 # Make sure all sources are up to date
 RUN apt-get update
 # Install python dependecies
