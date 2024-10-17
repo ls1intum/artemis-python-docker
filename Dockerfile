@@ -8,3 +8,5 @@ RUN apt-get update
 RUN apt install -y python3 python3-pip
 # Install pytest for python exercises
 RUN pip3 install -U pytest
+# Install Ruff for static code analysis
+RUN pip3 install ruff==0.6.9
